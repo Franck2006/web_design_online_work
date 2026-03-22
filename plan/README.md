@@ -10,3 +10,14 @@
     - git commit -m " adding your message "
     - git push
 ```
+
+
+# list de collaborators 
+- Cyrille
+- Jemima
+- Elsie
+- Christian
+- Julia
+- Ali
+- Elie
+- Eddie
