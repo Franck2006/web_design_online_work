@@ -17,6 +17,7 @@
 - Ali
 - Elie
 - Eddie
+- Calvin
 
 
 # chacun aura a faire son travail indique sans oublier ceci
