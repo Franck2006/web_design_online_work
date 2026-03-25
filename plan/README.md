@@ -29,7 +29,7 @@
 
 ```bash
     - $ git pull
-    #  our avoir le changement qu'une autre personne a fait
+    #  pour avoir le changement qu'une autre personne a fait
 ```
 
 ```bash
