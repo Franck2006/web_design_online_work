@@ -108,3 +108,117 @@ header h1 {
 }
 
 /* ------------- Section de Jemima --------------- */
+
+/* ============== Section de christian ============= */
+.news {
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news-h{
+    display: flex;
+    align-items: end
+}
+.news-link {
+    margin-left: 500px;
+}
+.news-link a {
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.news-text h1{
+    font-weight: 1000;
+    font-size: 40px;
+}
+.news-text p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #777;
+}
+.box-news{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    flex-direction: row;
+    
+}
+.box-activities {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    border: 1px;
+    box-shadow : 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    background-color: white;
+    overflow: hidden;
+ }
+.box-activities:hover {
+     transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.min {
+    /* margin : 20px; */
+    padding: 10px;
+    /* margin: 10px; */
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.min p {
+    font-size: 1px;
+}
+.min h5{
+    color: #777;
+}
+.badge1{
+    background: lightblue;    
+    padding: 0.1rem 1rem; 
+    color: blue;
+    border-radius: 10px; 
+    font-size: 0.85rem; 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    width: fit-content; 
+}
+.badge2{
+    background: greenyellow;    
+    padding: 0.1rem 1rem; 
+    color: green;
+    border-radius: 10px; 
+    font-size: 0.85rem; 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    width: fit-content; 
+}
+.badge3{
+    background: rgb(240, 197, 197);    
+    padding: 0.1rem 1rem; 
+    color: rgb(107, 47, 47);
+    border-radius: 10px; 
+    font-size: 0.85rem; 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    width: fit-content; 
+}
+.time{
+    margin-bottom: 15px;
+    color: #777;
+}
+@media (max-width:700px) {
+    .box-news {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-activities{
+        width: 100%;
+    }
+    .news-h{
+        flex-direction: column;
+    }    
+}
+
+
+
+/* ============== Section de christian ============= */
