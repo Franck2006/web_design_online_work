@@ -1,0 +1,63 @@
+/* ==========calvin====== */
+
+
+.excellence {
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Search {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 60px;
+    background-color: rgb(234, 224, 224);
+
+}
+.academic {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px;
+    color: blue;
+}
+.Modem {
+    font-size: larger;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-right: 15px;
+    
+}
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(234, 224, 224);
+}
+@media (max-width: 1080) {
+    .excellence {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
+/* ==========calvin====== */

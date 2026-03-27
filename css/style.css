@@ -1,3 +1,135 @@
-img{
-    object-fit: cover;
+/* ==========calvin====== */
+
+
+.excellence {
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Search {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 60px;
+    background-color: rgb(234, 224, 224);
+
+}
+.academic {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px;
+    color: blue;
+}
+.Modem {
+    font-size: larger;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-right: 15px;
+    
+}
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(234, 224, 224);
+}
+@media (max-width: 1080) {
+    .excellence {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img {
+    width: 1500px;
+    height: 500px;
+}
+.img img {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+.titre {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraphe {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: bolder;
+}
+
+.boutton {
+    display: flex;
+    gap: 10px;
+}
+.boutton button {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    gap: 10px;
+}
+.btn1 button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: blue;
+    border-radius: 15px;
+    border: 0px;
+    gap: 10px;
+    border: solid;
+    
+}
+span {
+    font-size: 11px;
+
+}
+@media (max-width: 1080){
+    .boutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1080) {
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/* ================calvin========== */
