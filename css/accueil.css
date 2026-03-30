@@ -218,6 +218,11 @@ header h1 {
     }
     .news-h{
         flex-direction: column;
+    }
+    .news-text {
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
     }    
 }
 
