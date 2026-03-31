@@ -61,3 +61,30 @@
 
 
 /* ==========calvin====== */
+
+/* ==========cyrille====== */
+.cta-banner { 
+    background: #f3f4f9;
+    border-radius: 20px; 
+    padding: 40px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; }
+
+.btn-white { 
+    background: white; 
+    color: #333; 
+    border: 1px solid #ddd; 
+    padding: 12px 24px; 
+    border-radius: 8px; 
+}
+@media (max-width: 1080) {
+    .cta-banner{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+/* ==========calvin====== */
