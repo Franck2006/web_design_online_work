@@ -1,0 +1,359 @@
+/* ------------- Section de Jemima --------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03);
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    background-color: #e8f0fe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.icon-container i{
+    font-size: 30px;
+    color: darkblue;
+} 
+
+
+.icon {
+    width: 50px;
+    height: 20px;
+    fill: #1a73e8;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+    .desc {
+        justify-content: center;
+    }
+}
+@media (max-width: 750px) {
+    .box {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* ------------- Section de Jemima --------------- */
+
+/* ============== Section de christian ============= */
+.news {
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news-h{
+    display: flex;
+    align-items: end
+}
+.news-link {
+    margin-left: 500px;
+}
+.news-link a {
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.news-text h1{
+    font-weight: 1000;
+    font-size: 40px;
+}
+.news-text p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #777;
+}
+.box-news{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    flex-direction: row;
+    
+}
+.box-activities {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    border: 1px;
+    box-shadow : 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    background-color: white;
+    overflow: hidden;
+ }
+.box-activities:hover {
+     transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.min {
+    /* margin : 20px; */
+    padding: 10px;
+    /* margin: 10px; */
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.min p {
+    font-size: 1px;
+}
+.min h5{
+    color: #777;
+}
+.badge1{
+    background: lightblue;    
+    padding: 0.1rem 1rem; 
+    color: blue;
+    border-radius: 10px; 
+    font-size: 0.85rem; 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    width: fit-content; 
+}
+.badge2{
+    background: greenyellow;    
+    padding: 0.1rem 1rem; 
+    color: green;
+    border-radius: 10px; 
+    font-size: 0.85rem; 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    width: fit-content; 
+}
+.badge3{
+    background: rgb(240, 197, 197);    
+    padding: 0.1rem 1rem; 
+    color: rgb(107, 47, 47);
+    border-radius: 10px; 
+    font-size: 0.85rem; 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    width: fit-content; 
+}
+.time{
+    margin-bottom: 15px;
+    color: #777;
+}
+@media (max-width:700px) {
+    .box-news {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-activities{
+        width: 100%;
+    }
+    .news-h{
+        flex-direction: column;
+    } 
+}
+/* ============== Section de christian ============= */
+
+
+/* ==========calvin====== */
+
+
+.excellence {
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Search {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 60px;
+    background-color: rgb(234, 224, 224);
+
+}
+.academic {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px;
+    color: blue;
+}
+.Modem {
+    font-size: larger;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-right: 15px;
+    
+}
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(234, 224, 224);
+}
+@media (max-width: 1080) {
+    .excellence {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img {
+    width: 1500px;
+    height: 500px;
+}
+.img img {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+.titre {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraphe {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: bolder;
+}
+
+.boutton {
+    display: flex;
+    gap: 10px;
+}
+.boutton button {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    gap: 10px;
+}
+.btn1 button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: blue;
+    border-radius: 15px;
+    border: 0px;
+    gap: 10px;
+    border: solid;
+    
+}
+span {
+    font-size: 11px;
+
+}
+@media (max-width: 1080){
+    .boutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1080) {
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/* ================calvin========== */
+

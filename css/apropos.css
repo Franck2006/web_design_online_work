@@ -67,7 +67,93 @@
         flex-direction: column;
     }
 }
-
-
-
 /* ==============calvin=============== */
+
+/* ===============section de christian ====================== */
+body{
+    background-color: #f1ecec;
+
+}
+.values{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 60px;
+}
+.values-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    /* margin: 50px; */
+}
+.box{
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    width: 35%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+.box:hover{
+    border:solid;
+}
+.icon{
+    background-color: #eef2ff;
+    color: #1e3a8a;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+h3 {
+    margin-bottom: 0;
+}
+p {
+    color: #5f6368;
+    font-size: 18px;
+    line-height: 1.2;
+    /* margin-top: 0; */
+    font-weight: 500;   
+}
+h1{
+    margin-bottom: 0;
+}
+@media (max-width:760px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .box{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .values{
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        margin-right: 20px;
+    }
+    .values-text{
+        text-align: center;
+    }
+}
+
+/* =======================section de christian ================================== */
+
+
+
