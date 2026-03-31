@@ -1,0 +1,75 @@
+/*====code pour elie====*/
+
+section{
+    margin: 0;
+    padding: 50px;
+    background: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.technology{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.future-card{
+    background: #f5f5f5;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+   
+
+}
+
+.future-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.text-future{
+    padding: 20;
+}
+
+.text-future h1{
+    margin: 10px 0;
+}
+
+.text-future p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.text-future span{
+    font-size: 10px;
+    color: darkblue;
+}
+
+.text-future button{
+    padding: 10px 15px;
+    border: 2px solid blue;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-future button:hover{
+    background: #1e3a8a;
+    color: white;
+}
+
+.fa-solid{
+    background: #d6d4d4;
+    color: #16203b;
+}
+
+@media (max-width: 1080px) {
+    .technolog{
+        flex-direction: column;
+        align-items: center;
+    }
+}

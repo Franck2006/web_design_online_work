@@ -1,0 +1,81 @@
+/*===code elie===*/
+
+section{
+    background: rgb(243, 240, 233);
+    text-align: left;
+    padding: 50px 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.events-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-betweens;
+    background: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.events{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link{
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.link a{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+
+.box{
+   /* background: white;*/
+    color: black;
+    width: 300px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date{
+    text-align: center;
+    gap: 20px;
+}
+
+.date h3{
+    background: rgb(9, 9, 75);
+    color: rgb(241, 241, 241);
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+
+.box span{
+    color: rgb(1, 1, 212);
+}
+
+@media (max-width: 1024px) {
+   .box {
+        flex-direction: column;
+        gap: 15px;
+        justify-content: space-between;
+
+    }
+    
+}
+
+
+
+
+
+/*===code elie===*/
