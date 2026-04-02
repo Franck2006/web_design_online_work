@@ -33,12 +33,12 @@ section{
     text-align: left;
 }
 
-.values-card fa-solid{
-    background: #d6d4d4;
-    color: #16203b;
+.box i{
+    background: #eaebf0;
+    color: #1f42a3;
     border-radius: 3px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
     
 }
