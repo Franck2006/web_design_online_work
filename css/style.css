@@ -136,6 +136,7 @@ span {
 
 /*======================cyrille=============*/
 /*     ========= première partie (index) =======       */
+
 .boite_parent{
     width: 850px;
     height: 700px;
@@ -203,6 +204,14 @@ span {
 /*     ========= neuvieme partie (index) =======     */
 
 
+.recording_box  {
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    align-items: center;    
+    min-height: 100vh;       
+    background-color: #f0f2f5; 
+}
 .contener_center{
     display: flex;
     gap: 10px;
