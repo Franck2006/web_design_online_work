@@ -7,10 +7,12 @@
     padding: 40px;
     background: white;
 }
-.demande h2{
+
+.demande h2 {
     font-weight: bold;
     font-size: 28px;
 }
+
 .btn-demande1 {
     background: rgb(53, 34, 160);
     color: white;
@@ -21,6 +23,7 @@
     border: none;
     padding: 15px;
 }
+
 .btn-demande2 {
     background: rgb(247, 239, 239);
     color: #222;
@@ -31,20 +34,25 @@
     border: none;
     padding: 15px;
 }
-.btn-demande1:hover{
+
+.btn-demande1:hover {
     background: rgb(25, 25, 175);
 }
-.btn-demande2:hover{
+
+.btn-demande2:hover {
     background: #dfdbdb;
 }
+
 @media (max-width: 760px) {
-    body{
+    body {
         width: 100%;
     }
-    .demande h2{
+
+    .demande h2 {
         font-size: 28px;
         font-weight: 800;
     }
+
     .bouton {
         display: flex;
         flex-direction: column;
@@ -52,22 +60,17 @@
 
     }
 }
-<<<<<<< HEAD
+
+
 /* ==============calvin=============== */
 
 /* ==============Cyrille=============== */
 
-/* ======================================
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
 
-* { box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
-    font-family: sans-serif; 
-}
-body { 
-    background-color: #f4f4f4; 
-    padding: 20px; 
-}
 .bloc-violet {
     background-color: #4b00c1;
     color: white;
@@ -79,38 +82,46 @@ body {
     flex-wrap: wrap;
     gap: 30px;
 }
-.gauche { 
-    flex: 1; 
-    min-width: 300px; 
+
+.gauche {
+    flex: 1;
+    min-width: 300px;
 }
-.gauche h2 { 
-    font-size: 32px; 
-    margin-bottom: 20px; 
+
+.gauche h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
 }
-.gauche p { 
-    line-height: 1.5; 
-    margin-bottom: 25px; 
-    opacity: 0.9; 
+
+.gauche p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+    opacity: 0.9;
 }
-.petites-boites { 
-    display: flex; 
-    gap: 10px; 
-    margin-bottom: 25px; 
+
+.petites-boites {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
 }
-.boite-info { 
-        background: rgba(255,255,255,0.1); 
-        padding: 15px; 
-        border-radius: 10px; 
-        flex: 1;
+
+.boite-info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
 }
-.boite-info h4 { 
-    font-size: 14px; 
-    margin-bottom: 5px; 
+
+.boite-info h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
 }
-.boite-info span { 
-    font-size: 12px; 
-    opacity: 0.7; 
+
+.boite-info span {
+    font-size: 12px;
+    opacity: 0.7;
 }
+
 .btn {
     background: white;
     color: #4b00c1;
@@ -120,34 +131,40 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-.droite { 
-    flex: 1; 
-    min-width: 300px; 
-    display: flex; 
-    flex-direction: column; 
-    gap: 15px; 
+
+.droite {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-.ligne-stats { 
-    display: flex; 
-    gap: 15px; 
-}       
-.carte { 
-    background: white; 
-    color: #333; 
-    padding: 25px; 
-    border-radius: 15px; 
+
+.ligne-stats {
+    display: flex;
+    gap: 15px;
+}
+
+.carte {
+    background: white;
+    color: #333;
+    padding: 25px;
+    border-radius: 15px;
     flex: 1;
 }
+
 .chiffre {
-    font-size: 28px; 
-    font-weight: bold; 
-    color: #4b00c1; 
-    display: block; 
+    font-size: 28px;
+    font-weight: bold;
+    color: #4b00c1;
+    display: block;
 }
-.legende { 
-    font-size: 13px; 
-    color: #666; 
+
+.legende {
+    font-size: 13px;
+    color: #666;
 }
+
 .carte-longue {
     background: white;
     color: #333;
@@ -157,30 +174,38 @@ body {
     align-items: center;
     gap: 15px;
 }
-.icone { 
-    background: #eee; 
-    padding: 10px; 
-    border-radius: 50%; 
+
+.icone {
+    background: #eee;
+    padding: 10px;
+    border-radius: 50%;
 }
+
 @media (max-width: 600px) {
-    .bloc-violet { 
-        padding: 20px; 
+    .bloc-violet {
+        padding: 20px;
     }
-    .ligne-stats { 
-        flex-direction: column; 
-    } 
-    .petites-boites { 
-        flex-direction: column; 
+
+    .ligne-stats {
+        flex-direction: column;
     }
-    .gauche h2 { 
-        text-align: center; 
+
+    .petites-boites {
+        flex-direction: column;
     }
-    .btn { 
-        width: 100%; 
+
+    .gauche h2 {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
     }
 }
-*/
+
+
 /* ==============cyrille=============== */
-=======
+
 /* ==================section de christian======================= */
->>>>>>> 5903ddc22d51135ca64fbaf214cdfbef0f6cf696
+
+/* ==================section de christian======================= */
