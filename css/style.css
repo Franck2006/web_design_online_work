@@ -180,12 +180,7 @@ span {
 
 /*======================cyrille=============*/
 /*     ========= première partie (index) =======       */
-<<<<<<< HEAD
-
-.boite_parent{
-=======
 .boite_parent {
->>>>>>> 16738553e98808333d08e075bd2a56cbf0961c5a
     width: 850px;
     height: 700px;
     /*background-color: #c9c9da;*/
@@ -262,19 +257,16 @@ span {
 /*     ========= neuvieme partie (index) =======     */
 
 
-<<<<<<< HEAD
-.recording_box  {
+.recording_box {
     justify-content: center;
     margin: 0;
     display: flex;
-    align-items: center;    
-    min-height: 100vh;       
-    background-color: #f0f2f5; 
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
 }
-.contener_center{
-=======
+
 .contener_center {
->>>>>>> 16738553e98808333d08e075bd2a56cbf0961c5a
     display: flex;
     gap: 10px;
     padding: 50px;
