@@ -513,3 +513,154 @@ textarea:focus {
 
 /*     ========= neuvième partie =======     */
 /*======================cyrille=============*/
+
+/* ========================================================================= */
+/*                          FOOTER SECTION (Franck Amani)                    */
+/* ========================================================================= */
+
+.site-footer {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 80px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: auto;
+}
+
+.site-footer .footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.site-footer .footer-brand h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.site-footer .footer-brand h2 i {
+    color: #3b82f6;
+}
+
+.site-footer .footer-brand p {
+    color: #94a3b8;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    max-width: 350px;
+}
+
+.site-footer .footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.site-footer .footer-socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.site-footer .footer-socials a:hover {
+    background-color: #3b82f6;
+    transform: translateY(-3px);
+}
+
+.site-footer .footer-links h3, .site-footer .footer-contact h3 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.site-footer .footer-links h3::after, .site-footer .footer-contact h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #3b82f6;
+    border-radius: 2px;
+}
+
+.site-footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-footer .footer-links ul li {
+    margin-bottom: 15px;
+}
+
+.site-footer .footer-links ul li a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.site-footer .footer-links ul li a:hover {
+    color: #3b82f6;
+    transform: translateX(5px);
+}
+
+.site-footer .footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-footer .footer-contact ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    color: #94a3b8;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.site-footer .footer-contact ul li i {
+    color: #3b82f6;
+    margin-top: 3px;
+}
+
+.site-footer .footer-bottom {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 1024px) {
+    .site-footer .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-footer .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .site-footer .footer-brand p {
+        max-width: 100%;
+    }
+}
