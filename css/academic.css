@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*====code pour elie====*/
 
 section{
@@ -74,3 +75,119 @@ section{
         align-items: center;
     }
 }
+=======
+/* ==========calvin====== */
+
+
+.excellence {
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Search {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 60px;
+    background-color: rgb(234, 224, 224);
+
+}
+.academic {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px;
+    color: blue;
+}
+.Modem {
+    font-size: larger;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-right: 15px;
+    
+}
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(234, 224, 224);
+}
+@media (max-width: 1080) {
+    .excellence {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
+/* ==========calvin====== */
+
+/* =============================================cyrille================================== */
+.cta-banner {
+  background-color: #cad4f7;
+  border-radius: 16px;
+  padding: 3rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  font-family: 'Segoe UI', sans-serif;
+}
+.cta-banner__content { max-width: 60%; }
+.cta-banner__content h2 { font-size: 2rem; color: var(--text-dark); margin-bottom: 0.5rem; }
+.cta-banner__content p { 
+    color: var(--text-gray); 
+    line-height: 1.5; margin: 0; 
+}
+.cta-banner__actions { 
+    display: flex; 
+    gap: 1rem; }
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: var(--transition);
+}
+.btn--primary {
+  background-color: var(--primary-purple);
+  color: rgb(5, 5, 5);
+}
+.btn--primary:hover { background-color: #2a0880; transform: scale(1.05);
+}
+.btn--secondary {
+  background-color: white;
+  color: var(--text-dark);
+  border: 1px solid #e0e0e0;
+}
+.btn--secondary:hover { border-color: var(--primary-purple); color: var(--primary-purple); transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  .cta-banner { flex-direction: column; text-align: center; padding: 2rem; gap: 2rem; }
+  .cta-banner__content { max-width: 100%; }
+  .cta-banner__actions { flex-direction: column; width: 100%; }
+  .btn { width: 100%; text-align: center; }
+}
+/* ============================================CYRILLE================================================== */
+/* ==========calvin====== */
+>>>>>>> 3a0d7d2e9cb13a0ca4ae5c3b71e4e0d96bb831e0

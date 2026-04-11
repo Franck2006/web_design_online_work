@@ -1,0 +1,228 @@
+/* =============== section de christian ================== */
+.demande {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.demande h2 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.btn-demande1 {
+    background: rgb(53, 34, 160);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+}
+
+.btn-demande2 {
+    background: rgb(247, 239, 239);
+    color: #222;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+}
+
+.btn-demande1:hover {
+    background: rgb(25, 25, 175);
+}
+
+.btn-demande2:hover {
+    background: #dfdbdb;
+}
+
+@media (max-width: 760px) {
+    body {
+        width: 100%;
+    }
+
+    .demande h2 {
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .bouton {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+}
+
+
+/* ==============calvin=============== */
+
+/* ==============Cyrille=============== */
+:root {
+    --brand-purple: #3A0CA3;
+    --brand-white: #FFFFFF;
+    --brand-translucent: rgba(255, 255, 255, 0.1);
+    --text-muted: rgba(255, 255, 255, 0.8);
+    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.scholarship-module {
+    background-color: var(--brand-purple);
+    padding: 80px 40px;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.scholarship-module__inner {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 60px;
+    align-items: center;
+    animation: fadeInSlide 0.8s ease-out;
+}
+@keyframes fadeInSlide {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.scholarship-module__title {
+    color: var(--brand-white);
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.cholarship-module__description {
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+.scholarship-module__badges {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.award-badge {
+    background: var(--brand-translucent);
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    transition: background 0.3s ease;
+}
+.award-badge:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+.award-badge__name {
+    color: var(--brand-white);
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+.award-badge__info {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+.scholarship-module__btn {
+    display: inline-block;
+    background: var(--brand-white);
+    color: var(--brand-purple);
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+.scholarship-module__btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255,255,255,0.3);
+}
+.scholarship-module__stats {
+    position: relative;
+}
+.stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+.stat-card {
+    background: var(--brand-white);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.stat-card:hover {
+    transform: translateY(-10px);
+}
+
+.stat-card--wide {
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+}
+.stat-card__number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--brand-purple);
+    margin-bottom: 10px;
+}
+.stat-card__label {
+    color: #555;
+    font-size: 0.9rem;
+}
+.stat-card__icon {
+    color: var(--brand-purple);
+    margin-right: 20px;
+    background: #F0F0FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.stat-card__title {
+    color: #1a1a1a;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+.stat-card__subtitle {
+    color: #777;
+    font-size: 0.85rem;
+}
+.decor-star {
+    position: absolute;
+    color: rgba(255,255,255,0.2);
+    font-size: 100px;
+    z-index: 1;
+}
+.decor-star--1 { top: -40px; right: -20px; animation: pulse 3s infinite; }
+.decor-star--2 { bottom: 20px; right: -60px; font-size: 60px; animation: pulse 4s infinite 1s; }
+@keyframes pulse {
+    0%, 100% { opacity: 0.2; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(1.1); }
+}
+@media (max-width: 1024px) {
+    .scholarship-module__inner { grid-template-columns: 1fr; gap: 40px; }
+    .scholarship-module__title { font-size: 2.2rem; }
+}
+@media (max-width: 600px) {
+    .scholarship-module { padding: 40px 20px; }
+    .scholarship-module__badges { flex-direction: column; }
+    .stat-grid { grid-template-columns: 1fr; }
+    .stat-card--wide { grid-column: 1; }
+    .stat-card__number { font-size: 2rem; }
+}
+/* ==============cyrille=============== */
+
+/* ==================section de christian======================= */
+
+/* ==================section de christian======================= */

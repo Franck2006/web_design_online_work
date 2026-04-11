@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*===code elie===*/
 
 section{
@@ -42,3 +43,164 @@ section{
 @media (max-width: 1080px) {
     
 }
+=======
+/* ==============calvin=============== */
+
+.excellence {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home p {
+    font-weight: 900;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.Search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Adimtions {
+    text-decoration: underline;
+    color: blue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.enroll {
+    margin-right: 20px;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1080) {
+    .excellence {
+        width: 90vw;
+    }
+    
+}
+@media (max-width: 1080){
+    .boutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1080) {
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+/* ==============calvin=============== */
+
+/* ===============section de christian ====================== */
+body{
+    background-color: #f1ecec;
+
+}
+.values{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 60px;
+}
+.values-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    /* margin: 50px; */
+}
+.box{
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    width: 35%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+.box:hover{
+    border:solid;
+}
+.icon{
+    background-color: #eef2ff;
+    color: #1e3a8a;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+h3 {
+    margin-bottom: 0;
+}
+p {
+    color: #5f6368;
+    font-size: 18px;
+    line-height: 1.2;
+    /* margin-top: 0; */
+    font-weight: 500;   
+}
+h1{
+    margin-bottom: 0;
+}
+@media (max-width:760px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .box{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .values{
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        margin-right: 20px;
+    }
+    .values-text{
+        text-align: center;
+    }
+}
+
+/* =======================section de christian ================================== */
+
+
+
+>>>>>>> 3a0d7d2e9cb13a0ca4ae5c3b71e4e0d96bb831e0

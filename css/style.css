@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*===code elie===*/
 
 section{
@@ -79,3 +80,421 @@ section{
 
 
 /*===code elie===*/
+=======
+/* ==========calvin====== */
+
+/* .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+/* franck */
+header nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: gray;
+}
+
+header nav .bars-icon {
+    width: 40px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(234, 224, 224);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* franck */
+
+header nav .Search {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 60px;
+    background-color: rgb(234, 224, 224);
+    cursor: pointer;
+}
+
+header nav .logo {
+    font-size: larger;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-right: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header nav .user-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(234, 224, 224);
+    cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+    header nav ul {
+        display: none;
+
+    }
+
+    header nav .bars-icon {
+        display: flex;
+    }
+
+    header nav .Search {
+        width: 100%;
+    }
+
+    header nav .logo p {
+        display: none;
+    }
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+    width: 1500px;
+    height: 500px;
+}
+
+.img img {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+
+.titre {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraphe {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: bolder;
+}
+
+.boutton {
+    display: flex;
+    gap: 10px;
+}
+
+.boutton button {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    gap: 10px;
+}
+
+.btn1 button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: blue;
+    border-radius: 15px;
+    border: 0px;
+    gap: 10px;
+    border: solid;
+
+}
+
+span {
+    font-size: 11px;
+
+}
+
+@media (max-width: 1080) {
+    .boutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1080) {
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/* ================calvin========== */
+<<<<<<< HEAD
+=======
+
+/*======================cyrille=============*/
+/*     ========= première partie (index) =======       */
+.boite_parent {
+    width: 850px;
+    height: 700px;
+    /*background-color: #c9c9da;*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.grande_boite1 {
+    /*background-color: #d9d9e0;*/
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+/*.grande_boite1{
+    gap: 10px;
+}*/
+.image1 img {
+    border-radius: 10px;
+    width: 150px;
+    height: 170px;
+
+}
+
+.image2 {
+    background-color: rgb(15, 15, 228);
+    border-radius: 10px;
+    width: 150px;
+    height: 170px;
+}
+
+.image2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.image3 img {
+    border-radius: 10px;
+    width: 150px;
+    height: 170px;
+}
+
+.image4 img {
+    border-radius: 10px;
+    width: 150px;
+    height: 170px;
+}
+
+.grande_boite2 {
+    gap: 10px;
+}
+
+.features-container {
+    display: flex;
+}
+
+.feature {
+    display: flex;
+}
+
+@media (max-width: 1080) {
+    .boite_parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/*     ========= neuvieme partie (index) =======     */
+
+
+.recording_box {
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.contener_center {
+    display: flex;
+    gap: 10px;
+    padding: 50px;
+    width: 800px;
+    height: 700px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact_info {
+    background-color: #1a365d;
+    color: white;
+    padding: 40px;
+    /*width: 40%; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact_info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact_info p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #e2e8f0;
+}
+
+.les_info {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.les_info .icon {
+    font-size: 20px;
+}
+
+.les_info .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.les_info .details strong {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.les_info .details span {
+    font-size: 13px;
+    color: #cbd5e1;
+}
+
+.reseaux_sociaux {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.contact-form {
+    padding: 40px;
+    width: 60%;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background-color: transparent;
+    font-size: 14px;
+    color: #2d3748;
+    outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #1a365d;
+}
+
+.submit-btn {
+    background-color: #1a365d;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #2a4a7f;
+}
+
+@media (max-width: 768px) {
+
+    .mission-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .features-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .grid-item {
+        min-height: 150px;
+    }
+}
+
+/*     ========= neuvième partie =======     */
+/*======================cyrille=============*/
+>>>>>>> f06f1ca5212c2a13e5d6f7d7538ad38e8c4efabd
+>>>>>>> 3a0d7d2e9cb13a0ca4ae5c3b71e4e0d96bb831e0
