@@ -908,3 +908,91 @@ body {
 
 /*     ========= neuvième partie =======     */
 /*======================cyrille=============*/
+
+
+/* **************************************julia***************************** */
+.faq-container{
+  margin: 0;
+  padding: 0;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+   flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+.h2 {
+  font-size: 2.2rem;
+  margin-bottom:10px;
+  font-weight: 800px;
+  margin-bottom: 8px;
+  color:#111827 ;
+
+}
+.subtitle{
+  /* color: var(--text-muted); */
+  margin-bottom: 40px;
+  color: #6b7280;
+  font-size: 1rem;
+}
+.item{
+  background-color: white;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  text-align: left;
+  overflow: hidden;
+  transition: background-color 0.2s ease;
+   width: 80%; 
+  height: 70px;
+}
+
+  /* font-family: 'Courier New', Courier, monospace; */
+  /* font-weight: 800; */
+  /* color: black; *
+
+  /* margin: 0; */
+  /* font-weight: bold; */
+
+
+details{
+  background-color: var(--card-bg);
+  margin-bottom: 15px;
+  border-radius: 12px;
+  text-align: left;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+}
+.summary{
+  list-style: none;
+  padding: 20px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+summary::-webkit-details-maker{
+  display: none;
+}
+.icone ::after{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #100;
+  border-bottom: 2px solid #000;
+  transform: rotate(45deg);
+  transform: transform 0.3s ease;
+
+}
+details[ open] .icon::after{
+  transform: rotate(-135deg);
+}
+.content{
+  padding: 0 25px 20px 25px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
